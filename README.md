@@ -1,0 +1,2 @@
+# lerna-demo
+node\lerna

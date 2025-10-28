@@ -4,6 +4,11 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "start-all": "lerna watch -- lerna run start --since",
+    "start-only-change-file": "lerna watch -- lerna run start --scope=\\$LERNA_PACKAGE_NAME",
+    "start": "lerna watch -- lerna run start --scope=\\$LERNA_PACKAGE_NAME --include-dependents"
+  },
   "dependencies": {},
   "devDependencies": {
     "lerna": "^8.2.2"

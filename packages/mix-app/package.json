@@ -24,9 +24,5 @@
   },
   "bugs": {
     "url": "https://github.com/LorryIsLuRui/lerna-demo/issues"
-  },
-  "devDependencies": {
-    "mini-1": "file:../mini-1",
-    "mini-2": "file:../mini-2"
   }
 }

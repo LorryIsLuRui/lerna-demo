@@ -1,0 +1,27 @@
+{
+  "name": "mini-1",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "LorryIsLuRui <534774764@qq.com>",
+  "homepage": "https://github.com/LorryIsLuRui/lerna-demo#readme",
+  "license": "ISC",
+  "main": "lib/mini-1.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LorryIsLuRui/lerna-demo.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/mini-1.test.js",
+    "start": "node ./lib/mini-1.js"
+  },
+  "bugs": {
+    "url": "https://github.com/LorryIsLuRui/lerna-demo/issues"
+  }
+}

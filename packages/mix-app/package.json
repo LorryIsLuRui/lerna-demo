@@ -1,0 +1,32 @@
+{
+  "name": "mix-app",
+  "version": "0.0.0",
+  "private": true,
+  "description": "> TODO: description",
+  "author": "LorryIsLuRui <534774764@qq.com>",
+  "homepage": "https://github.com/LorryIsLuRui/lerna-demo#readme",
+  "license": "ISC",
+  "main": "lib/mix-app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LorryIsLuRui/lerna-demo.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/mix-app.test.js",
+    "start": "node ./lib/mix-app.js"
+  },
+  "bugs": {
+    "url": "https://github.com/LorryIsLuRui/lerna-demo/issues"
+  },
+  "devDependencies": {
+    "mini-1": "file:../mini-1",
+    "mini-2": "file:../mini-2"
+  }
+}
